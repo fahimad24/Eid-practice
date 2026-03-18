@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Author Card</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Toastr CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css"
+    />
+  </head>
+  <body>
+    <section
+      class="bg-white overflow-hidden flex items-center justify-center h-dvh"
+    >
+      <div
+        class="w-80 p-5 flex flex-col items-center gap-3 bg-gray-900 rounded-xl"
+      >
+        <div class="flex justify-center overflow-hidden rounded-full w-60 h-60">
+          <img
+            src="assets/Ahmad-fahim.jpeg"
+            alt="Author Image"
+            class="w-full object-cover"
+          />
+        </div>
+        <div>
+          <h2 class="text-xl text-center font-bold text-white">Ahmad Fahim</h2>
+          <p class="text-gray-400 text-center">@ahmadfahim</p>
+        </div>
+        <div>
+          <button
+            id="add-btn"
+            class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 cursor-pointer rounded"
+          >
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
